@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding</title>
+    <link rel="stylesheet" href="css/normaize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="site-container">
+        <main>
+            <section class="hero">
+                <div class="container hero__container">
+                    <h1 class="hero__heading">
+                        Мы приглашаем Вас на свадьбу
+                    </h1>
+                    <p class="hero__text">
+                        Этот прекрасный день мы хотим провести
+                        в кругу самых близких людей
+                    </p>
+                    <p class="hero__text-date">
+                        25.07.2022
+                    </p>
+                </div>
+            </section>
+
+            <section class="program">
+                <div class="container program__container">
+                    <h2 class="program__heading">
+                        Программа дня
+                    </h2>
+                    <p class="program__date">
+                        25 ИЮЛЯ 2022
+                    </p>
+                    <ul class="program__list">
+                        <li class="program__list-item">
+                            <p class="program__list-item-time">
+                                14:00
+                            </p>
+                            <div class="program__list-item-block">
+                                <h3 class="program__list-item-capture">
+                                    Сбор гостей и фуршет
+                                </h3>
+                                <p class="program__list-item-text">
+                                    Пока гости собираются, вы сможете угоститься бокалом игристого и познакомиться с нашим замечательным ведущим.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="program__list-item">
+                            <p class="program__list-item-time">
+                                15:00
+                            </p>
+                            <div class="program__list-item-block">
+                                <h3 class="program__list-item-capture">
+                                    Церемония бракосочетания
+                                </h3>
+                                <p class="program__list-item-text">
+                                    Браком сочетаются двое весов, поэтому советуем посетить церемонию, так как брачующиеся могут передумать в любой момент. Говоря серьёзно, церемония - это трогательный и красивый этап нашего праздника. В кругу близких людей мы скажем друг другу по-настоящему важные слова.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="program__list-item">
+                            <p class="program__list-item-time">
+                                15:30
+                            </p>
+                            <div class="program__list-item-block">
+                                <h3 class="program__list-item-capture">
+                                    Свадебный ужин
+                                </h3>
+                                <p class="program__list-item-text">
+                                    Время вкусной еды, развлечений, тёплого общения и танцев.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="program__list-item">
+                            <p class="program__list-item-time">
+                                22:30
+                            </p>
+                            <div class="program__list-item-block">
+                                <h3 class="program__list-item-capture">
+                                    Окончание вечера
+                                </h3>
+                                <p class="program__list-item-text">
+                                    Не хочется этого признавать, но даже такой прекрасный вечер может закончиться.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <img src="img/decor.webp" alt="Декоративная завитушка" class="decor">
+                </div>
+            </section>
+
+            <section class="place">
+                <div class="container place__container">
+                    <h2 class="place__heading">
+                        Место проведения свадьбы
+                    </h2>
+                    <p class="place__text">
+                        Свою свадьбу мы решили отметить в Wedding&nbspHouse&nbspPanorama.
+                        Он&nbspнаходится по адресу: микрорайон Подрезково, 1В Химки, Московская область, Россия
+                    </p>
+                    <div class="place__block">
+                        <img src="img/place-img.png" alt="" class="place__img">           
+                    </div> 
+                    <img src="img/decor.webp" alt="Декоративная завитушка" class="decor">                 
+                </div>
+            </section>
+
+            <section class="road">
+                <div class="container road__container">
+                    <h2 class="road__heading">
+                        Как добраться?
+                    </h2>
+                    <div id="map" class="map"></div>
+                </div>
+            </section>
+
+            <section class="dress-code">
+                <div class="container dress-code__container">
+                    <h2 class="dress-code__heading">
+                        DRESS CODE
+                    </h2>
+                    <p class="dress-code__text">
+                        Нам будет приятно, если вы поддержите атмосферу нашей свадьбы и отдадите предпочтение праздничному дресс-коду 
+                    </p>
+                    <p class="dress-code__text dress-code__text_present">
+                        Если вы планировали нам подарить букет цветов, то предлагаем не мучить цветы долгой дорогой. Будем рады вместо этого получить бутылочку любого приятного напитка :)
+                    </p>
+                    <img src="img/decor.webp" alt="Декоративная завитушка" class="decor">
+                </div>
+            </section>
+
+            <section class="timer">
+                <div class="container timer__container">
+                    <h2 class="timer__heading">
+                        До свадьбы осталось&nbsp:
+                    </h2>
+                  <div id="timer__group" class="timer__group">
+                      <div class="timer__block">
+                        <span class="timer__text">Дней</span>
+                        <span id="d" class="timer__badge"></span>    
+                      </div>
+                        <div class="timer__block">
+                            <span class="timer__text">Часов</span>
+                            <span id="h" class="timer__badge"></span>
+                        </div>
+                        <div class="timer__block">
+                            <span class="timer__text">Минут</span>
+                            <span id="m" class="timer__badge"></span>
+                        </div>
+                        <div class="timer__block">
+                            <span class="timer__text">Секунд</span>
+                            <span id="s" class="timer__badge"></span>
+                        </div>        
+                    </div>
+                    <img src="img/decor.webp" alt="Декоративная завитушка" class="decor">
+                </div>
+            </section>
+
+            <section class="photo">
+                <h2 class="photo__heading">
+                    Фотографии
+                </h2>
+                <p class="photo__text">
+                    Здесь появится ссылка на Фотографии и Видео со свадьбы
+                </p>             
+            </section>
+
+            <section class="organizer">
+                <div class="container organizer__container">
+                    <h2 class="organizer__heading">
+                                    Организатор
+                    </h2>
+                    <h2 class="organizer__heading">
+                        Event-агентство «Даша&nbspи&nbspМедведь» 
+                    </h2>
+                    <img src="img/organizer.jfif" alt="" class="organizer__img">
+                    <p class="organizer__text">
+                        Здравствуйте! Я Даша - организатор свадьбы Даши и Саши. Буду рада ответить на все ваши вопросы.
+                    </p>
+                    <p class="organizer__text organizer__text-number">
+                        Пишите в WhatsApp или Telegram 
+                   </p>
+                   <a href="tel:+79167906948" class="organizer__tel">
+                    +7&nbsp(916)&nbsp790-69-48
+                    </a>
+                </div>
+            </section>
+
+            <section class="invite">
+                <div class="container invite__container">
+                    <div class="invite__top">
+                        <img src="img/decor.webp" alt="Декоративная завитушка" class="decor">
+                        <h2 class="invite__heading">
+                            Ответ на приглашение
+                        </h2>
+                        <p class="invite__top__text">
+                            Пожалуйста, подтвердите своё присутствие на торжестве. Ваши ответы очень помогут нам в организации свадьбы.
+                        </p>
+                        <p class="invite__top__text">
+                            Обратите внимание, что если вы идёте парой или семьёй, то нужно заполнить форму на каждого взрослого.
+                        </p>
+                        <button class="invite__top__button">
+                            Ответить
+                        </button>
+                    </div>
+                    <div class="invite__bottom">
+                        <img src="img/close.png" alt="" class="invite__bottom__close">
+                        <form action="ajax.php" method="POST" class="invite__form" id="form">
+                            <h3 class="invite__alert">
+                                Пожалуйста,заполните форму за каждого взрослого!
+                            </h3>
+                            <label for="name" class="invite__form__label">Введите Имя и Фамилию*</label>
+                            <input type="text" name="name" required placeholder="Имя Фамилия" id="name" class="invite__form__name ">
+                            <h3 class="invite__caption">
+                                Подтвердите присутствие
+                            </h3>
+                            <div class="invite__form__block">
+                                <input checked type="radio"  id="come" name="come" value="Приду" class="invite__form__radio">
+                                <label for="come" class="invite__form__label__radio">Я приду</label>
+                            </div>
+                            <div class="invite__form__block">
+                                <input type="radio" id="idk" name="come" value="Затрудняюсь ответить" class="invite__form__radio">
+                                <label for="idk" class="invite__form__label__radio">Затрудняюсь ответить</label>
+                            </div>
+                            <div class="invite__form__block">
+                                <input type="radio" id="no" name="come" value="Не приду" class="invite__form__radio">
+                                <label for="no" class="invite__form__label__radio">Я не приду</label>
+                            </div>
+                           <h3 class="invite__caption">
+                                Ваши предпочтения по напиткам
+                            </h3>
+                            <div class="invite__form__block">
+                                <input type="radio" id="whiskey" name="drink" value="Виски" class="invite__form__checkbox">
+                                <label for="whiskey" class="invite__form__label__checkbox">Виски</label>
+                            </div>
+                            <div class="invite__form__block">
+                                <input type="radio" id="vodka" name="drink" value="Водка" class="invite__form__checkbox">
+                                <label for="vodka" class="invite__form__label__checkbox">Водка</label>
+                            </div>
+                            <div class="invite__form__block">
+                                <input type="radio" id="wine" name="drink" value="Вино" class="invite__form__checkbox">
+                                <label for="wine" class="invite__form__label__checkbox">Вино</label>
+                            </div>
+                            <div class="invite__form__block">
+                                <input type="radio" id="schampagne" name="drink" value="Шампанское" class="invite__form__checkbox">
+                                <label for="schampagne" class="invite__form__label__checkbox">Шампанское</label>
+                            </div>
+                            <div class="invite__form__block">
+                                <input type="radio" id="martini" name="drink" value="Мартини" class="invite__form__checkbox">
+                                <label for="martini" class="invite__form__label__checkbox">Мартини</label>
+                            </div> 
+                            <div class="invite__form__block">
+                                <input type="radio" id="nonalkohol" name="drink" value="Безалкагольные напитки" class="invite__form__checkbox">
+                                <label for="nonalkohol" class="invite__form__label__checkbox">Безалкогольные напитки</label>
+                            </div> 
+                            <input type="submit" name="submit" value="Готово" class="invite__form__submit" id="submit">                     
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="thanks">
+                <div class="container thanks__container">
+                    <h1 class="thanks__heading">
+                        Мы будем счастливы видеть Вас!
+                    </h1>
+                </div>
+            </section>
+        </main>
+    </div>  
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
